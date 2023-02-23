@@ -1,0 +1,23 @@
+{
+    "app_name" : "NYC TAXI ETL JOB",
+    "default_log_path":"logs/out.log",
+    "master_instance":"local[3]",
+    "sparkExecutorMemory":"1g",
+    "sparkExecutorCores":"2",
+    "sparkExecutorCoresMax":"2",
+    "sparkDriverMemory":"8g",
+    "run_db_setup":"1",
+    "dimension_files_location":"data/dim_data/",
+    "data_files_location":"data/trip_data/",
+    "dbUrl":"jdbc:postgresql://localhost:5432/nycTaxiDb",
+    "dbUser":"postgres",
+    "dbPass":"mypassword",
+    "dbDriver":"org.postgresql.Driver",
+    "dbHost":"127.0.0.1",
+    "dbPort":"5432",
+    "database":"nycTaxiDb"
+
+
+
+
+}
